@@ -33,14 +33,14 @@
 
   <span style="display: none" itemprop="description">{{ article.summary }}</span>
 
-  <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-      <img src="{{ SITEURL }}{{ article.metadata['Image'] }}"/>
+  <div style="display: none" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+      <img src="{{ SITEURL }}{{ article.metadata['image'] }}"/>
       <meta itemprop="url" content="{{ SITEURL }}{{ article.metadata['image'] }}">
       <meta itemprop="width" content="256">
       <meta itemprop="height" content="256">
   </div>
 
-  <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+  <div style="display: none" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
       <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
           <img src="{{ SITEURL }}{{ USER_LOGO_URL }}"/>
           <meta itemprop="url" content="{{ SITEURL }}{{ USER_LOGO_URL }}">
