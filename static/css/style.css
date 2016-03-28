@@ -11,6 +11,14 @@ a {
   color: #000000;
   text-decoration: none;
 }
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 21px;
+  color: #000000;
+  margin-top: 2.5em;
+}
 hr {
   color: #eeeeee;
   background-color: #eeeeee;
@@ -69,6 +77,10 @@ main article div.article_text {
 }
 main article div.article_text a {
   text-decoration: underline;
+}
+main article div.article_text .stick-to-title {
+  display: block;
+  margin-top: -1.5em;
 }
 main article div.article_text img {
   margin-left: auto;
