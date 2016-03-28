@@ -95,8 +95,9 @@ main article div.article_text pre {
   overflow-x: auto;
 }
 main article div.article_text blockquote {
+  padding: 0.2em 0 0.2em 40px;
+  border-left-style: solid;
   margin: 22px 2px 22px 2px;
-  padding-left: 40px;
   color: #999999;
   font-style: italic;
 }
